@@ -8,7 +8,7 @@
 */
 
 // Include the Morty header file
-#include "main.hpp" //CHANGE ME
+#include "Morty.hpp" //CHANGE ME
 
 using namespace std;
 
