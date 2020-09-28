@@ -1,3 +1,11 @@
+//
+//  main.hpp
+//  Homework_1_Aww_Geez_Man
+//
+//  Created by Patrick Procter on 9/27/20.
+//  Copyright © 2020 Procter Industries. All rights reserved.
+//
+
 /*
  __  __            _               _
 |  \/  | ___  _ __| |_ _   _      | |__  _ __  _ __
@@ -36,7 +44,7 @@ namespace interdimensional {
 
 namespace C137 {
 
-void mortyC137(int start, int stop, std::string dimension) {
+void Morty(int start, int stop, std::string dimension) {
     std::cout << "Morty C137 says:" << std::endl;
     
     for (int i = start; i <= stop; i++) {
@@ -56,7 +64,7 @@ void mortyC137(int start, int stop, std::string dimension) {
     }
 }
 
-void mortyC137(int start, int stop, int step, std::string dimension) {
+void Morty(int start, int stop, int step, std::string dimension) {
     for (int i = start; i <= stop; i+=step) {
         std::cout << i << ": ";
         if ((i % 15) == 0) {
@@ -87,7 +95,7 @@ int stop; //sets start number based on function
 int step; //sets step size
 std::string dimension;
 */
-void mortyZ286(int start, int stop, std::string dimension){
+void Morty(int start, int stop, std::string dimension){
     std::cout << "Morty Z286 says:" << std::endl;
     
     for (int i = start; i <= stop; i++) {
@@ -107,7 +115,7 @@ void mortyZ286(int start, int stop, std::string dimension){
     }
 }
 
-void mortyZ286(int start, int stop, int step, std::string dimension) {
+void Morty(int start, int stop, int step, std::string dimension) {
     for (int i = start; i <= stop; i+=step) {
         std::cout << i << ": ";
         if ((i % 15) == 0) {
