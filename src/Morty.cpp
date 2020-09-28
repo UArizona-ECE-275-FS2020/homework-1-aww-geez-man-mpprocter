@@ -9,6 +9,7 @@
 //New Attempt
 // Include the Morty header file
 #include "Morty.hpp" //CHANGE ME
+#include <string.h>
 
 using namespace std;
 
