@@ -1,3 +1,11 @@
+//
+//  main.cpp
+//  Homework_1_Aww_Geez_Man
+//
+//  Created by Patrick Procter on 9/27/20.
+//  Copyright © 2020 Procter Industries. All rights reserved.
+//
+
 /*
  __  __            _
 |  \/  | ___  _ __| |_ _   _        ___ _ __  _ __
@@ -6,10 +14,9 @@
 |_|  |_|\___/|_|   \__|\__, | (_)  \___| .__/| .__/
                        |___/           |_|   |_|
 */
-//New Attempt
+
 // Include the Morty header file
 #include "Morty.hpp" //CHANGE ME
-#include <string.h>
 
 using namespace std;
 
@@ -32,22 +39,22 @@ int main(int argc, char*argv[]) {
         
         if (strcmp(argv[3], "C137") == 0) {
             using namespace C137;
-            C137::mortyC137(atoi(argv[1]), atoi(argv[2]), argv[3]);
+            C137::Morty(atoi(argv[1]), atoi(argv[2]), argv[3]);
         }
         else if (strcmp(argv[3], "Z286") == 0) {
             using namespace Z286;
-            Z286::mortyZ286(atoi(argv[1]), atoi(argv[2]), argv[3]);
+            Z286::Morty(atoi(argv[1]), atoi(argv[2]), argv[3]);
         }
     }
     
     else if (argc == 5) {
         if (strcmp(argv[4], "C137") == 0) {
             using namespace C137;
-            C137::mortyC137(atoi(argv[1]), atoi(argv[2]), atoi(argv[3]), argv[4]);
+            C137::Morty(atoi(argv[1]), atoi(argv[2]), atoi(argv[3]), argv[4]);
         }
         else if (strcmp(argv[4], "Z286") == 0) {
             using namespace Z286;
-            Z286::mortyZ286(atoi(argv[1]), atoi(argv[2]), atoi(argv[3]), argv[4]);
+            Z286::Morty(atoi(argv[1]), atoi(argv[2]), atoi(argv[3]), argv[4]);
         }
     }
     
