@@ -9,7 +9,7 @@
 //New Attempt
 // Include the Morty header file
 #include "Morty.hpp" //CHANGE ME
-#include <string.h>
+#include <string>
 
 using namespace std;
 
@@ -31,18 +31,22 @@ int main(int argc, char*argv[]) {
     if (argc == 4) {
         
         if (strcmp(argv[3], "C137") == 0) {
+            using namespace C137;
             C137::mortyC137(atoi(argv[1]), atoi(argv[2]), argv[3]);
         }
         else if (strcmp(argv[3], "Z286") == 0) {
+            using namespace Z286;
             Z286::mortyZ286(atoi(argv[1]), atoi(argv[2]), argv[3]);
         }
     }
     
     else if (argc == 5) {
         if (strcmp(argv[4], "C137") == 0) {
+            using namespace C137;
             C137::mortyC137(atoi(argv[1]), atoi(argv[2]), atoi(argv[3]), argv[4]);
         }
         else if (strcmp(argv[4], "Z286") == 0) {
+            using namespace Z286;
             Z286::mortyZ286(atoi(argv[1]), atoi(argv[2]), atoi(argv[3]), argv[4]);
         }
     }
